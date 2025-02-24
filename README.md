@@ -33,6 +33,7 @@ Este é um projeto simples que replica a interface da Netflix utilizando HTML, C
 
 > Carrossel de Imagens em Alta: O carrossel de imagens pode ser rolado horizontalmente, e o botão de navegação aparece somente quando o usuário está em uma posição de scroll que permite movimentação.
 
+```javascript
 function scrollCarrossel(distance) {
     const emaltaDiv = document.getElementById("emalta-div");
     const btnLeft = document.getElementById("scroll-btn-left");
