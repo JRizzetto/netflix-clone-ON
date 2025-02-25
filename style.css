@@ -216,12 +216,15 @@ form button {
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+form button:hover {
+    background-color: rgb(170, 8, 16);;
 }
 
 form button p{
@@ -326,6 +329,10 @@ form button i {
     flex-wrap: wrap;
 }
 
+.assinatura-container:hover {
+    background: linear-gradient(91deg, #472b5f, #242c6b);
+}
+
 .text-anuncio {
     font-size: 20px;
     font-weight: 500;
@@ -403,6 +410,11 @@ form button i {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.catalogo-contaner .catalogo-background:hover {
+    scale: 1.2;
 }
 
 .emalta-container .scroll-btn-rigth {
@@ -556,6 +568,10 @@ form button i {
     font-size: 24px;
 }
 
+.perguntas-frequentes details summary:hover {
+    background-color: rgb(95, 95, 95);
+}
+
 .perguntas-frequentes details p {
     background-color: rgb(46, 46, 46);
     height: 100%;
@@ -697,6 +713,10 @@ footer .footer-section .info-container ul li {
 }
 
 @media (max-width: 800px) {
+    .main-content .image-container {
+        overflow: hidden;
+    }
+
     .main-content .image-container img {
         width: 1000px;
         height: 105vh;
